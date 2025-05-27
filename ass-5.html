@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctor Appointment Form</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: white;">
+
+  <div style="display: flex; align-items: flex-start; justify-content: center; padding: 40px;">
+    
+    <!-- Doctor Image -->
+    <div style="flex: 1; padding-right: 20px;">
+      <img src="https://i.pinimg.com/736x/b9/97/a5/b997a530822d0f2c03259070d4590d45.jpg" alt="Doctor" style="width:450px; height:550px;">
+    </div>
+
+    <!-- Form Content -->
+    <div style="flex: 2;">
+      <h2 style="color: maroon; border-bottom: 2px solid maroon; padding-bottom: 5px; margin-bottom: 20px;">
+        Doctor Appointment Form
+      </h2>
+
+      <form>
+        <!-- Appointment Date and Time -->
+        <label>Appointment Date:</label><br>
+        <input type="date"><br><br>
+
+        <label>Appointment Time:</label><br>
+        <input type="time"><br><br>
+
+        <!-- Name -->
+        <label>Name:</label><br>
+        <input type="text" placeholder="First" style="margin-right: 10px;">
+        <input type="text" placeholder="Last"><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        <!-- Phone -->
+        <label>Phone:</label><br>
+        <input type="tel" placeholder="123-456-7890"><br><br>
+
+        <!-- Address -->
+        <label>Address:</label><br>
+        <input type="text" placeholder="City" style="margin-right: 10px;">
+        <input type="text" placeholder="State"><br><br>
+
+        <!-- Query -->
+        <label>Your Query:</label><br>
+        <textarea rows="4" cols="40" placeholder="Write your query here..."></textarea><br><br>
+
+        <!-- Appointment Type -->
+        <label>Appointment Type:</label><br>
+        <span>Select which appointment type(s) you require:</span><br>
+        <input type="checkbox"> Cervix checkup<br>
+        <input type="checkbox"> Heart checkup<br>
+        <input type="checkbox"> Eye check-up<br>
+        <input type="checkbox"> Hearing Test<br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Send" style="padding: 6px 16px;">
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
